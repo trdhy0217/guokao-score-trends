@@ -39,6 +39,8 @@ jobs:
 
       - name: Build Vite project
         run: npm run build
+        env:
+          VITE_BASE: /guokao-score-trends/
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
