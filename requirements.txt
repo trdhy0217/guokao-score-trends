@@ -1,0 +1,3 @@
+# 数据预处理依赖（将 /data 下历年 Excel 转换为前端可用 JSON）
+pandas>=2.0
+openpyxl>=3.1
